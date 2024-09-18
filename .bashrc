@@ -1,6 +1,6 @@
 HISTCONTROL=ignoreboth
 HISTFILESIZE=2000
-HISTIGNORE="ls *:ll:pwd:history:h:clear:c:help *: :."
+HISTIGNORE="ls*:ll:pwd:history:h:clear:c:help*: :."
 HISTSIZE=${HISTFILESIZE}
 HISTTIMEFORMAT="%F %T "
 PROMPT_COMMAND="history -a"
@@ -36,15 +36,15 @@ cyan="6${e}"
 white="7${e}"
 dark="${rgb}66;55;113${e}"
 
+default="9${e}"
+reset="${s}${black}"
+
 branch=$'\uf418'
 clock=$'\ue641'
 folder=$'\uf114'
 laptop=$'\uf109'
 semicircle=$'\ue0b6'
 triangle=$'\ue0b0'
-
-default="9${e}"
-reset="${s}${black}"
 
 PS1="\n${fg}${yellow}${semicircle}"
 PS1+="${bg}${yellow}${fg}${black}${clock} \t " # Time
