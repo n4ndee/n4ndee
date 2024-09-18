@@ -46,7 +46,7 @@ triangle=$'\ue0b0'
 default="9${e}"
 reset="${s}${black}"
 
-PS1="${fg}${yellow}${semicircle}"
+PS1="\n${fg}${yellow}${semicircle}"
 PS1+="${bg}${yellow}${fg}${black}${clock} \t " # Time
 PS1+="${brbg}${blue}${fg}${yellow}${triangle} "
 PS1+="${fg}${default}\u ${laptop}  \h " # User, host
