@@ -43,6 +43,7 @@ branch=$'\uf418'
 clock=$'\ue641'
 folder=$'\uf114'
 laptop=$'\uf109'
+lightning=$'\udb85\udc0b'
 semicircle=$'\ue0b6'
 triangle=$'\ue0b0'
 
@@ -55,4 +56,4 @@ PS1+="${fg}${default} ${folder}  \w " # Working directory
 PS1+="${fg}${dark}${bg}${white}${triangle} "
 PS1+="${branch} `__git_ps1 '%s'` " # Git branch
 PS1+="${fg}${white}${bg}${default}${triangle}"
-PS1+="\n${fg}${yellow}› ${reset}"
+PS1+="\n${fg}${yellow}${lightning}${reset}"
